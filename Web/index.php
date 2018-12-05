@@ -21,12 +21,12 @@ Mozilla presents an HTML5 mini-MMORPG by Little Workshop http://www.littleworksh
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="viewport" content="width=device-width, initial-scale=0.56, maximum-scale=0.56, user-scalable=no">
         <link rel="icon" type="image/png" href="img/common/favicon.png">
-        <meta property="og:title" content="BrowserQuest">
+        <meta property="og:title" content="LH Winter RPG">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://browserquest.mozilla.org/">
-        <meta property="og:image" content="http://browserquest.mozilla.org/img/common/promo-title.jpg">
-        <meta property="og:site_name" content="BrowserQuest">
-        <meta property="og:description" content="Play Mozilla's BrowserQuest, an HTML5 massively multiplayer game demo powered by WebSockets!">
+        <meta property="og:url" content="http://lhtranslation.net/rpg">
+        <meta property="og:image" content="http://lhtranslation.net/rpg/promo-title.jpg">
+        <meta property="og:site_name" content="LH Winter RPG">
+        <meta property="og:description" content="Play LH's winter RPG!">
         <link rel="stylesheet" href="css/main.css" type="text/css">
         <link rel="stylesheet" href="css/achievements.css" type="text/css">
         <script src="js/lib/modernizr.js" type="text/javascript"></script>
@@ -38,7 +38,7 @@ Mozilla presents an HTML5 mini-MMORPG by Little Workshop http://www.littleworksh
                 </script>
         <![endif]-->
         <script src="js/detect.js" type="text/javascript"></script>
-        <title>BrowserQuest</title>
+        <title>LH Winter Fun</title>
 	</head>
     <!--[if lt IE 9]>
 	<body class="intro upscaled">
@@ -46,10 +46,9 @@ Mozilla presents an HTML5 mini-MMORPG by Little Workshop http://www.littleworksh
 	<body class="intro">
 	    <noscript>
 	       <div class="alert">
-	           You need to enable JavaScript to play BrowserQuest.
+	           You need to enable JavaScript to play.
 	       </div>
 	    </noscript>
-	    <a id="moztab" class="clickable" target="_blank" href="http://www.mozilla.org/"></a>
 	    <div id="intro">
 	        <h1 id="logo">
 	           <span id="logosparks">
@@ -156,34 +155,15 @@ Mozilla presents an HTML5 mini-MMORPG by Little Workshop http://www.littleworksh
         	            <h1>
          	               <span class="left-ornament"></span>
          	               <span class="title">
-         	                   What is BrowserQuest?
+         	                   What is LH's Winter Wonderland?
          	               </span>
          	               <span class="right-ornament"></span>
                         </h1>
                         <p id="game-desc">
-                            BrowserQuest is a multiplayer game inviting you to explore a
-                            world of adventure from your Web browser.
+                            LH's Winter Wonderland is a multiplayer game inviting you to explore a
+                            world of adventure to celebrate the winter months.
                         </p>
-                        <div class="left">
-                            <div class="img"></div>
-                            <p>
-                                This demo is powered by HTML5 and WebSockets, which allow for real-time gaming and apps on the Web.
-                            </p>
-                            <span class="link">
-                                <span class="ext-link"></span>
-                                <a target="_blank" class="clickable" href="http://hacks.mozilla.org/2012/03/browserquest/">Learn more</a> about the technology
-                            </span>
-                        </div>
-                        <div class="right">
-                            <div class="img"></div>
-                            <p>
-                                BrowserQuest is available on Firefox, Chrome, Safari as well as iOS devices and Firefox for Android.
-                            </p>
-                            <span class="link">
-                                <span class="ext-link"></span>
-                                <a target="_blank" class="clickable" href="http://github.com/mozilla/BrowserQuest">Grab the source</a> on Github
-                            </span>
-                        </div>
+                       
 	                    <div id="close-about">
 	                        <span>- click anywhere to close -</span>
                         </div>
@@ -195,7 +175,7 @@ Mozilla presents an HTML5 mini-MMORPG by Little Workshop http://www.littleworksh
                     <article id="error">
           	           <h1>
           	               <span class="left-ornament"></span>
-          	               Your browser cannot run BrowserQuest!
+          	               Your browser cannot run this game :(
           	               <span class="right-ornament"></span>
                          </h1>
                          <p>
@@ -297,13 +277,8 @@ Mozilla presents an HTML5 mini-MMORPG by Little Workshop http://www.littleworksh
 		    </div>
 		</div>
 		<footer>
-		    <div id="sharing" class="clickable">
-		      Share this on 
-              <a href="http://twitter.com/share?url=http%3A%2F%2Fbrowserquest.mozilla.org&amp;text=Mozilla%27s%20BrowserQuest%3A%20HTML5%20massively%20multiplayer%20adventure%20game%20%23demo%20%23websockets&amp;related=glecollinet:Creators%20of%20BrowserQuest%2Cwhatthefranck" class="twitter"></a>
-              <a href="http://www.facebook.com/share.php?u=http://browserquest.mozilla.org/" class="facebook"></a>
-		    </div>
 		    <div id="credits-link" class="clickable">
-		      – <span id="toggle-credits">Credits</span>
+		      <span id="toggle-credits">Credits</span>
 		    </div>
 		</footer>
 		
@@ -339,7 +314,7 @@ Mozilla presents an HTML5 mini-MMORPG by Little Workshop http://www.littleworksh
             if(!Modernizr.localstorage) {
                 var alert = document.createElement("div");
                     alert.className = 'alert';
-                    alertMsg = document.createTextNode("You need to enable cookies/localStorage to play BrowserQuest");
+                    alertMsg = document.createTextNode("You need to enable cookies/localStorage to play");
                     alert.appendChild(alertMsg);
 
                 target = document.getElementById("intro");
